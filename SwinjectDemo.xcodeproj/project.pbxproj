@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3A3AC21D0070300042C96D /* SwinjectStoreboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A3AC11D0070300042C96D /* SwinjectStoreboard+Setup.swift */; };
 		1AFF57D91CFF232700ADAE2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF57D81CFF232700ADAE2B /* AppDelegate.swift */; };
 		1AFF57DB1CFF232700ADAE2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF57DA1CFF232700ADAE2B /* ViewController.swift */; };
 		1AFF57DE1CFF232700ADAE2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF57DC1CFF232700ADAE2B /* Main.storyboard */; };
 		1AFF57E01CFF232700ADAE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF57DF1CFF232700ADAE2B /* Assets.xcassets */; };
 		1AFF57E31CFF232700ADAE2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF57E11CFF232700ADAE2B /* LaunchScreen.storyboard */; };
+		1AFF57EF1CFF283500ADAE2B /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF57EE1CFF283500ADAE2B /* AnimalType.swift */; };
+		1AFF57F11CFF285700ADAE2B /* PersonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFF57F01CFF285700ADAE2B /* PersonType.swift */; };
 		B6A0CA7577D9614C9C740868 /* Pods_SwinjectDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFE09741A70B8131DAF914C /* Pods_SwinjectDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3A3AC11D0070300042C96D /* SwinjectStoreboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoreboard+Setup.swift"; sourceTree = "<group>"; };
 		1AFF57D51CFF232700ADAE2B /* SwinjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwinjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFF57D81CFF232700ADAE2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AFF57DA1CFF232700ADAE2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +27,8 @@
 		1AFF57DF1CFF232700ADAE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFF57E21CFF232700ADAE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AFF57E41CFF232700ADAE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFF57EE1CFF283500ADAE2B /* AnimalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
+		1AFF57F01CFF285700ADAE2B /* PersonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonType.swift; sourceTree = "<group>"; };
 		5ABE996B934E73792959663A /* Pods-SwinjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectDemo/Pods-SwinjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DEFE09741A70B8131DAF914C /* Pods_SwinjectDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwinjectDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7446942451871BB059FA9D8 /* Pods-SwinjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectDemo/Pods-SwinjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +73,9 @@
 				1AFF57DF1CFF232700ADAE2B /* Assets.xcassets */,
 				1AFF57E11CFF232700ADAE2B /* LaunchScreen.storyboard */,
 				1AFF57E41CFF232700ADAE2B /* Info.plist */,
+				1AFF57EE1CFF283500ADAE2B /* AnimalType.swift */,
+				1AFF57F01CFF285700ADAE2B /* PersonType.swift */,
+				1A3A3AC11D0070300042C96D /* SwinjectStoreboard+Setup.swift */,
 			);
 			path = SwinjectDemo;
 			sourceTree = "<group>";
@@ -213,6 +222,9 @@
 			files = (
 				1AFF57DB1CFF232700ADAE2B /* ViewController.swift in Sources */,
 				1AFF57D91CFF232700ADAE2B /* AppDelegate.swift in Sources */,
+				1AFF57F11CFF285700ADAE2B /* PersonType.swift in Sources */,
+				1A3A3AC21D0070300042C96D /* SwinjectStoreboard+Setup.swift in Sources */,
+				1AFF57EF1CFF283500ADAE2B /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
